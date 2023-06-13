@@ -37,6 +37,7 @@ package and distribute them for use by others in their projects.
 '''
 INSTALLED_APPS = [
     # Django
+    # 'Welcome.apps.WelcomeConfig',
     'django.contrib.admin',         # The admin site.
     'django.contrib.auth',          # An authentication system
     'django.contrib.contenttypes',  # A framework for content types (track all models)
