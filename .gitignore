@@ -1,0 +1,24 @@
+# Ignore PyCharm IDE files
+.idea/
+*.iml
+misc.xml
+modules.xml
+vcs.xml
+inspectionProfiles/
+
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+
+# Ignore database files
+*.sqlite3
+
+# Ignore environment files
+.env
+.venv/
+
+# Ignore static and media files
+staticfiles/
+media/
+# Ignore platform specific files
+.DS_Store
