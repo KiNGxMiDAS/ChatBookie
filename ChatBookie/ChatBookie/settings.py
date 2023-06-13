@@ -30,13 +30,22 @@ ALLOWED_HOSTS = []
 
 # Application definition
 
+'''
+Holds the names of all Django applications that are activated in this
+Django instance. Apps can be used in multiple projects, and you can 
+package and distribute them for use by others in their projects.
+'''
 INSTALLED_APPS = [
-    'django.contrib.admin',
-    'django.contrib.auth',
-    'django.contrib.contenttypes',
-    'django.contrib.sessions',
-    'django.contrib.messages',
-    'django.contrib.staticfiles',
+    # Django
+    'django.contrib.admin',         # The admin site.
+    'django.contrib.auth',          # An authentication system
+    'django.contrib.contenttypes',  # A framework for content types (track all models)
+    'django.contrib.sessions',      # A session framework (store and retrive arbitrary data on PSV)
+    'django.contrib.messages',      # A messaging framework
+    'django.contrib.staticfiles',   # A framework for managing static files
+
+    # Apps
+    'Welcome',  # The HomePage
 ]
 
 MIDDLEWARE = [
