@@ -1,6 +1,6 @@
 # ChatBookie
 
-ChatBookie is a chatbot app that plays the role of a bookie. The chatbot uses AI to intelligently predict accurate predictions for upcoming sports matches from basketball, baseball, football, soccer, and other sports.
+ChatBookie is a chatbot app that serves as a virtual bookmaker, providing accurate predictions for upcoming sports matches. Built with Python and Django, ChatBookie utilizes machine learning techniques to analyze historical data and generate intelligent predictions for various sports, including basketball, baseball, football, soccer, and more. Users can interact with the chatbot through a user-friendly web interface, obtaining reliable predictions to assist in their sports betting decisions. With its intuitive design and advanced prediction capabilities, ChatBookie offers a unique and engaging experience for sports enthusiasts and bettors alike.
 
 ## Table of Contents
 
