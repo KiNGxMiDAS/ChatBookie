@@ -46,7 +46,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',   # A framework for managing static files
 
     # Apps
-    'Welcome',  # The HomePage
+    'Home',
 ]
 
 MIDDLEWARE = [
